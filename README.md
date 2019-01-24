@@ -41,7 +41,7 @@ const fred = new Person({
 
 ```js
 const fred = new Instructor({
-  name: 'Fred',
+  name: 'Fred', 
   location: 'Bedrock',
   age: 37,
   gender: 'male',
