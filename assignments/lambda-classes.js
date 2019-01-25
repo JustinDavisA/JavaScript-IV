@@ -35,8 +35,8 @@ class Student extends Person {
         this.className = studentAtts.className;
         this.favSubjects = studentAtts.favSubjects;
     }
-    listsSubjects() {
-        console.log(`Today we are learning about ${subject}`);
+    listsSubjects(favSubjects) {
+        console.log(`Today we are learning about ${favSubjects}`);
     }
     PRAssignment(subject) {
         console.log(`${student.name} has submitted a PR for ${subject}`);
