@@ -29,16 +29,19 @@ class Instructor extends Person {
 }
 
 class Student extends Person {
-    constructor(instructorAtts) {
-        super(instructorAtts);
-        this.previousBackground = instructorAtts.previousBackground;
-        this.className = instructorAtts.className;
-        this.favSubjects = instructorAtts.favSubjects;
+    constructor(studentAtts) {
+        super(studentAtts);
+        this.previousBackground = studentAtts.previousBackground;
+        this.className = studentAtts.className;
+        this.favSubjects = studentAtts.favSubjects;
     }
-    demo(subject) {
+    listsSubjects() {
         console.log(`Today we are learning about ${subject}`);
     }
-    grade(student, subject) {
+    PRAssignment(subject) {
+        console.log(`${student.name} receives a perfect score on ${subject}`);
+    }
+    sprintChallenge(subject) {
         console.log(`${student.name} receives a perfect score on ${subject}`);
     }
 }
