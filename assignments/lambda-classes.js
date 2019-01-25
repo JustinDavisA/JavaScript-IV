@@ -39,10 +39,10 @@ class Student extends Person {
         console.log(`Today we are learning about ${subject}`);
     }
     PRAssignment(subject) {
-        console.log(`${student.name} receives a perfect score on ${subject}`);
+        console.log(`${student.name} has submitted a PR for ${subject}`);
     }
     sprintChallenge(subject) {
-        console.log(`${student.name} receives a perfect score on ${subject}`);
+        console.log(`${student.name} has begun sprint challenge on ${subject}`);
     }
 }
 
@@ -53,8 +53,8 @@ class ProjectManagers extends Instructor {
         this.favInstructor = pmAtts.favInstructor;
     }
     standUp(subject) {
-        console.log(`Today we are learning about ${subject}`);
+        console.log(`${name} announces to ${channel}, @channel standy times!`);
     }
     debugsCode(student, subject) {
-        console.log(`${student.name} receives a perfect score on ${subject}`);
+        console.log(`${name} debugs ${student.name}'s code on ${subject}`);
     }
